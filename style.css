@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 10px;
   background-color: antiquewhite;
 }
 
@@ -37,40 +37,45 @@ body {
   font-weight: 500;
 }
 
-.contact-btn {
+.contato {
   background-color: orange;
   padding: 8px 16px;
   border-radius: 20px;
-  color: white;
+  color: rgb(255, 255, 255)
+
 }
 
-.main-section {
+.main {
   display: flex;
   flex: 1;
   width: 100%;
 }
 
-.card {
+.foto_texto {
   width: 50%;
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  
 }
 
-.card img {
+.foto_texto img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.card h2 {
-  margin: 20px 0 10px;
-  font-size: 22px;
+.foto_texto h2 {
+  
+  margin: 20px 0 30px;
+   font-weight: 900;
+   letter-spacing: 0.5px;
 }
 
-.card p {
-  font-size: 14px;
+.foto_texto p {
+  
   color: #333;
   padding: 0 20px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .footer {
@@ -78,7 +83,7 @@ body {
   color: #ccc;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 30px 20px;
   flex-wrap: wrap;
   font-size: 13px;
 }
